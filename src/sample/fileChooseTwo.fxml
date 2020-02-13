@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FileChooseTwo">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="chooseFileBtnTwo" layoutX="71.0" layoutY="125.0" mnemonicParsing="false" onAction="#fileChooseTwo" text="Select Customer File" />
+            <ListView fx:id="fileListTwo" layoutX="260.0" layoutY="66.0" prefHeight="200.0" prefWidth="200.0" />
+            <Button fx:id="submitFileBtnTwo" disable="true" layoutX="98.0" layoutY="185.0" mnemonicParsing="false" onAction="#getOrderScene" text="Submit File" />
+            <Label layoutX="76.0" layoutY="66.0" text="Choose Customer File" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
